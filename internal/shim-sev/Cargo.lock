@@ -32,9 +32,19 @@ checksum = "9274b445ee572d50bdeb17a1101be829becc565b5c12b21a697af4d360b48e8d"
 
 [[package]]
 name = "goblin"
-version = "0.3.0"
+version = "0.3.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c69552f48b18aa6102ce0c82dd9bc9d3f8af5fc0a5797069b1b466b90570e39c"
+checksum = "669cdc3826f69a51d3f8fc3f86de81c2378110254f678b8407977736122057a4"
+dependencies = [
+ "plain",
+ "scroll",
+]
+
+[[package]]
+name = "goblin"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b1800b95efee8ad4ef04517d4d69f8e209e763b1668f1179aeeedd0e454da55"
 dependencies = [
  "plain",
  "scroll",
@@ -83,7 +93,7 @@ checksum = "979d94833957a6485c5cac4b71d552a9cd0b9f3f6fd1c7c5dc8096b3ee2bcd13"
 name = "rcrt1"
 version = "0.1.0"
 dependencies = [
- "goblin",
+ "goblin 0.3.4",
  "libc",
 ]
 
@@ -114,7 +124,7 @@ dependencies = [
  "array-const-fn-init",
  "compiler_builtins",
  "crt0stack",
- "goblin",
+ "goblin 0.4.2",
  "libc",
  "lset",
  "nbytes",
