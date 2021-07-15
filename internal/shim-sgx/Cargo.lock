@@ -14,9 +14,9 @@ checksum = "4c0496836a84f8d0495758516b8621a622beb77c0fed418570e50764093ced48"
 
 [[package]]
 name = "compiler_builtins"
-version = "0.1.37"
+version = "0.1.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6d79dfd3f874f6ea916c1d72dfeae50fc2c380f06fdaaaa84bb509406efb610b"
+checksum = "fd4ed89e0a5c3e50b15c0045fbe1ff8567b703bc07544faf935ddff0aaa7b65f"
 
 [[package]]
 name = "const-default"
